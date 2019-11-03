@@ -10576,6 +10576,14 @@ textarea.form-control {
   font-size: 16px;
   margin-left: 10px; }
 
+.whatsapp {
+  position: fixed;
+  top: 82%;
+  left: 80%;
+  padding: 10px;
+  z-index: 10000000;
+}
+
 #ftco-loader {
   position: fixed;
   width: 96px;
