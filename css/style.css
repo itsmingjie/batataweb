@@ -8372,6 +8372,7 @@ h1, h2, h3, h4, h5,
   font-size: 20px; }
 
 .hero-wrap {
+  background-color: #8FBC8F;
   width: 100%;
   position: relative; }
   .hero-wrap .overlay {
@@ -8522,7 +8523,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     height: 750px;
     z-index: 0;
-    background: #dbcc8f; }
+    background: #8FBC8F; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -8724,7 +8725,7 @@ h1, h2, h3, h4, h5,
           background: #fff; }
 
 .bg-light {
-  background: #f8f9fa !important; }
+  background-color: #8FBC8F !important; }
 
 .bg-primary {
   background: #dbcc8f; }
@@ -9548,6 +9549,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
+  background-color: #8FBC8F
   padding: 7em 0;
   position: relative; }
   @media (max-width: 767.98px) {
@@ -9817,6 +9819,7 @@ textarea.form-control {
       color: rgba(0, 0, 0, 0.3); }
 
 .testimony-section {
+  background-color: #8FBC8F;
   position: relative; }
   .testimony-section .owl-carousel {
     margin: 0; }
