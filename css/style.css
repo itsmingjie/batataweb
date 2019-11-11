@@ -10677,3 +10677,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    .cabecalho {
+      background-color: #8FBC8F;
+    }
+
+.logoini {
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 67px;
+}
