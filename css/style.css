@@ -10141,7 +10141,7 @@ textarea.form-control {
       color: black; }
 
 .block-23 ul {
-  padding: 0; }
+  padding: 1; }
   .block-23 ul li, .block-23 ul li > a {
     display: table;
     line-height: 1.5;
@@ -10680,7 +10680,7 @@ textarea.form-control {
 
 
     .cabecalho {
-      background-color: #8FBC8F;
+      background-color: rgb(57,79,73);
     }
 
 .logoini {
