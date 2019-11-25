@@ -32,7 +32,7 @@ html,body{
     text-align: center;
     width: 33.3%;
     float: left;
-    padding-top: 5px;    
+    padding-top: 5px;
 }
 
 .cabecalho .email{
@@ -52,7 +52,7 @@ html,body{
 .carrosel{
     position: relative;
     top: -10%;
-    width: 100%;  
+    width: 100%;
 }
 
 .carrosel img{
@@ -61,6 +61,7 @@ html,body{
 
 .resto{
     height: 1000px;
+		background-color: #8FBC8F;
 }
 
 .container-carrosel{
@@ -86,5 +87,3 @@ html,body{
         height: 250px;
     }
 }
-
-
