@@ -50,8 +50,6 @@ html,body{
 }
 
 .carrosel{
-    position: relative;
-    top: -10%;
     width: 100%;
 }
 
@@ -60,6 +58,7 @@ html,body{
 }
 
 .resto{
+    position: relative;
     height: 1000px;
 		background-color: #2E8B57;
 }
@@ -76,14 +75,62 @@ html,body{
 
 .navbar-brand{
     color: black;
+    margin-top: 40px;
+}
+.navbar-brand img{
+   margin-left: 30px;
+   
+   
 }
 
 .navbar-item{
     color: black;
+}
+.navbar-nav li{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px){
     .carrosel img{
         height: 250px;
     }
+    .navbar{
+        margin-top: -7%;
+    }
+    .navbar-nav {
+        float: right;
+    }
+    .navbar-nav li{
+        color: white;
+    }
+
+    .navbar-brand{
+        margin: 0 0;
+    }
+
+    .navbar-brand img{
+        height: 60px;
+        width: 80px;
+        margin: 10px 0;
+     }
+    .navbar-nav li{
+        margin-bottom: -10px;
+    }
+    
 }
+.mumu{
+    z-index: 1;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -67px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    float: right;
+}
+
