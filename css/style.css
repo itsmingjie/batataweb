@@ -60,27 +60,27 @@ html,body{
 .resto{
     position: relative;
     height: 1000px;
-		background-color: #2E8B57;
+	background-color: #4B9655;
 }
 
-.container-carrosel{
+.carousel{
     position: absolute;
+    margin-top: -61px;
 }
 
 .navbar{
     height: 10%;
     background: rgba(0,0,0,0) !important;
-    z-index: 3;
+    z-index: 1;
+    position: relative;    
 }
 
 .navbar-brand{
     color: black;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .navbar-brand img{
-   margin-left: 30px;
-   
-   
+   margin-left: 30px;   
 }
 
 .navbar-item{
@@ -90,12 +90,16 @@ html,body{
     font-size: 20px;
 }
 
+.navbar-collapse{
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 768px){
     .carrosel img{
         height: 250px;
     }
     .navbar{
-        margin-top: -7%;
+        margin-top: -60px;
     }
     .navbar-nav {
         float: right;
@@ -133,4 +137,18 @@ html,body{
     font-weight: bold;
     float: right;
 }
+
+.ftco-footer{
+    background-color: black;
+    color: white;
+}
+
+.container a{
+    color: white;
+}
+
+.container a:hover{
+    color: #4B9655;
+}
+
 
