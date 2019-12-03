@@ -72,7 +72,7 @@ html,body{
     height: 10%;
     background: rgba(0,0,0,0) !important;
     z-index: 1;
-    position: relative;    
+    position: relative;
 }
 
 .navbar-brand{
@@ -80,7 +80,7 @@ html,body{
     margin-top: 80px;
 }
 .navbar-brand img{
-   margin-left: 30px;   
+   margin-left: 30px;
 }
 
 .navbar-item{
@@ -120,7 +120,7 @@ html,body{
     .navbar-nav li{
         margin-bottom: -10px;
     }
-    
+
 }
 .mumu{
     z-index: 1;
@@ -151,4 +151,14 @@ html,body{
     color: #4B9655;
 }
 
+#imgpos1 {
+	position: absolute;
+	left: 1230px;
+	top: 5px;
+}
 
+#imgpos2 {
+	position: absolute;
+	left: 1270px;
+	top: 5px;
+}
