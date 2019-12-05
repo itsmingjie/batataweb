@@ -34,51 +34,23 @@
   </head>
   <body>
 
+	<div class="whatsapp-fixo">
+		<a href="https://api.whatsapp.com/send?phone=+5531997094545">
+		<img src="./images/whatsapp.png" width="50px" height="50px" alt="Fale Conosco pelo WhatsApp"/> 
+		</a>
+	</div>
+
 	<div class="cabecalho" id="cabecalho">
 		<span class="cellphone">+55 31 99709-4545</span>
 		<span class="email">GEOMINING@EMAIL.COM</span>
 		<span class="empresa">+55 31 99709-4545</span>
-    <img id="imgpos1" src="./images/braflag.png" alt="Brasil" height="15" width="20"></img>
-    <a href="indexi.html"> <img id="imgpos2" src="./images/usaflag.png" alt="USA" height="15" width="20"></img></a>
-
+		<img id="imgpos1" src="./images/braflag.png" alt="Brasil" height="15" width="20"></img>
+		<a href="indexi.html"> <img id="imgpos2" src="./images/usaflag.png" alt="USA" height="15" width="20"></img></a>
 	</div><!--cabecalho-->
+
 	<div class="clear"></div>
-
-			  <nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="#"> <img src="./images/logo-inicial.png" alt="Logo Inicial" height="100" width="140"> </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				 <span class="navbar-toggler-icon"></span>
-			   </button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-				  <ul class="navbar-nav">
-					<!-- itens presente no menu -->
-					<li class="nav-item ">
-					  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="shop.html">Loja</a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#">Serviços</a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link " href="#rodape">Contato</a>
-					</li>
-					<li class="nav-item barra">
-					   <div class="col-sm-3 my-1">
-						   <div class="input-group">
-							   <div class="input-group-append">
-								   <div class=" btn-pesquisa" style="background-color: #C3C3C3"><i class="fas fa-search"></i></div>
-								 </div>
-								 <!-- botao de pesquisa da versão mobile-->
-
-							 <!-- barra de pesquisa da versão mobile -->
-						   </div>
-						 </div>
-				   </li>
-				  </ul>
-				</div>
-	   </nav>
+	<div class="overlay"></div>
+	<img id="logo" src="images/logo-inicial-branco.png">
 
 	<div id="carouselExampleIndicators" class="carousel slide carrosel" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -108,7 +80,35 @@
 	</div><!--carousel-->
 	</div>
 
-	<div class="resto"></div>
+	<div class="resto">
+		<div class="container-servicos">
+			<h1>Serviços</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum, purus malesuada tincidunt varius, nunc purus dapibus sapien, eu cursus nisl augue non magna. Etiam ultricies risus magna, sed bibendum lacus consectetur non. Donec fermentum enim quis leo convallis, ut bibendum urna dictum. Nullam sit amet finibus ligula. Curabitur a varius mauris. Nullam nec finibus magna. Duis lacinia elit a mauris varius, non varius erat convallis.</p>
+		</div>
+
+		<div class="servicos">
+
+			<div class="servicos-item">				
+				<img src="./images/pesquisa.jpg">
+				<h1>Pesquisa Mineral</h1>
+			</div>
+
+			<div class="servicos-item">				
+				<img src="./images/licenca.jpg">
+				<h1>Licença Ambiental</h1>
+			</div>
+
+			<div class="servicos-item">				
+					<img src="./images/licenca.jpg">
+					<h1>Licença Ambiental</h1>
+			</div>
+
+			<div class="servicos-item">				
+				<img src="./images/licenca.jpg">
+				<h1>Licença Ambiental</h1>
+			</div>
+		</div>
+	</div>
 
  <footer id="rodape" class="ftco-footer ftco-section">
       <div class="container">
@@ -189,8 +189,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
  <script src="js/bootstrap.min.js"></script>
-
-
+ <script src="js/navbar.js"></script>
 
   </body>
 </html>
