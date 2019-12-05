@@ -17,7 +17,7 @@ html,body{
 .whatsapp-fixo {
     position: fixed;
     bottom: 40px;
-    right: 40px;
+    left: 40px;
     z-index: 999;
 }
 
@@ -126,6 +126,7 @@ html,body{
     vertical-align: middle;
     position: relative;
     height: 2000px;
+    width: 100%;
 	background-color: #4B9655;
 }
 
@@ -173,13 +174,13 @@ html,body{
 
 #imgpos1 {
 	position: absolute;
-	left: 1230px;
+	right: 10px;
 	top: 5px;
 }
 
 #imgpos2 {
 	position: absolute;
-	left: 1270px;
+	right: 40px;
 	top: 5px;
 }
 
@@ -233,6 +234,22 @@ html,body{
         margin-top: 0px;       
     }
 
+    .cabecalho{
+        height: 20%;
+
+    }
+
+    .cabecalho .cellphone{
+        width: 100%;
+    }
     
+    .cabecalho .email{
+        width: 100%;
+    }
     
+    .cabecalho .empresa{
+        width: 100%;
+    }
+
+
 }
