@@ -105,7 +105,7 @@ html,body{
 }
 
 .overlay{
-    position: fixed;
+    position: absolute;
     top: 3%;
     left: 0;    
     z-index: 2;
@@ -133,7 +133,7 @@ html,body{
     padding-top: 50px;
     vertical-align: middle;
     position: relative;
-    height: 2000px;
+    height: 2100px;
     width: 100%;
 	background-color: #4B9655;
 }
