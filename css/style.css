@@ -221,12 +221,12 @@ html,body{
 }
 
 .menu-inteiro{
-    background-color:transparent;
+    background-color:transparent ;
     width: 100%;
 }
 .menu{
     width: 100%;
-    background-color: transparent;
+    background-color: transparent ;
 }
 
 
@@ -283,3 +283,8 @@ html,body{
 
 }
 
+
+/* so tem como mudar por aqui a cor do nav bar */
+.navbar{
+    background-color: white !important;
+}
