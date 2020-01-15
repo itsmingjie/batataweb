@@ -91,7 +91,7 @@ html,body{
 .navbar{
     z-index: 3;
     background-color: transparent;
-    margin-left: 20%;    
+    
 }
 
 .navbar-light .navbar-brand {
@@ -216,8 +216,29 @@ html,body{
     color: white;
     text-align: center;
 }
+.itens-menu{
+    float: right;
+}
+
+.menu-inteiro{
+    background-color:transparent;
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    background-color: transparent;
+}
+
 
 @media screen and (max-width: 768px){
+    .itens-menu{
+        float: none;
+    }
+    
+    #logo{
+        display: none;
+    }
+
     .carrosel img{
         height: 250px;
     }
@@ -243,7 +264,7 @@ html,body{
     }
 
     .cabecalho{
-        height: 20%;
+        height: 13%;
 
     }
 
@@ -261,3 +282,4 @@ html,body{
 
 
 }
+
