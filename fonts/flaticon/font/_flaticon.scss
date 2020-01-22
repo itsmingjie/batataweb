@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 26/04/2019 08:25
+    Creation date: 09/04/2019 16:17
     */
 
     @font-face {
@@ -37,12 +37,16 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-bag:before { content: "\f100"; }
-.flaticon-customer-service:before { content: "\f101"; }
-.flaticon-payment-security:before { content: "\f102"; }
-.flaticon-heart-box:before { content: "\f103"; }
+    .flaticon-mining:before { content: "\f100"; }
+.flaticon-gold-ingots:before { content: "\f101"; }
+.flaticon-wagon:before { content: "\f102"; }
+.flaticon-refinery:before { content: "\f103"; }
+.flaticon-blacksmith:before { content: "\f104"; }
+.flaticon-crucible:before { content: "\f105"; }
     
-    $font-Flaticon-bag: "\f100";
-    $font-Flaticon-customer-service: "\f101";
-    $font-Flaticon-payment-security: "\f102";
-    $font-Flaticon-heart-box: "\f103";
+    $font-Flaticon-mining: "\f100";
+    $font-Flaticon-gold-ingots: "\f101";
+    $font-Flaticon-wagon: "\f102";
+    $font-Flaticon-refinery: "\f103";
+    $font-Flaticon-blacksmith: "\f104";
+    $font-Flaticon-crucible: "\f105";
