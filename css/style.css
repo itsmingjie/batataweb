@@ -1,4 +1,7 @@
 /* Base */
+
+
+
 .font-size-10 {
   font-size: 10px; }
 
@@ -451,7 +454,7 @@ h1, h2, h3, h4, h5,
 
 header.site-navbar.js-sticky-header.site-navbar-target {
     padding-top: 35px;
- 
+    padding-bottom: 35px
 }
 
 .site-navbar {
@@ -483,9 +486,8 @@ header.site-navbar.js-sticky-header.site-navbar-target {
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid white !important; }
   .site-navbar .site-navigation .site-menu {
-    padding-top: 6px;
-    
-    margin-bottom: 50px; 
+    padding-top: 10px;
+    margin-bottom: 60px; 
     
   }
   .site-navbar .site-navigation .site-menu img {
@@ -662,7 +664,7 @@ header.site-navbar.js-sticky-header.site-navbar-target {
     list-style: none;
     position: relative; }
     .site-mobile-menu .site-nav-wrap a {
-      padding: 10px 64px;
+      padding: 10px 51px;
       display: block;
       position: relative;
       color: #212529; }
@@ -1286,4 +1288,9 @@ header.site-navbar.js-sticky-header.site-navbar-target {
 	position: absolute;
 	right: 40px;
 	top: 5px;
+}
+
+
+.alinhar{
+padding-bottom: 3mm;
 }
