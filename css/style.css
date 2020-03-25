@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5,
   border-width: 2px; }
 
 .text-black {
-  color: #000 !important; }
+  color: #FFFFFF !important; }
 
 .bg-black {
   background: #000 !important; }
@@ -447,8 +447,8 @@ h1, h2, h3, h4, h5,
     appearance: none;
     width: 100%; }
 
-.top-bar {    
-  border-bottom: 1px solid #00040700 !important; 
+.top-bar {
+  border-bottom: 1px solid #00040700 !important;
 }
 
 
@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5,
   padding: 1rem; }
   @media (max-width: 991.98px) {
     .site-navbar {
-        
+
       padding-top: 3rem;
       padding-bottom: 3rem; } }
   .site-navbar .toggle-button {
@@ -486,8 +486,8 @@ h1, h2, h3, h4, h5,
     border-bottom: 1px solid white !important; }
   .site-navbar .site-navigation .site-menu {
     padding-top: 10px;
-    margin-bottom: 65px; 
-    
+    margin-bottom: 65px;
+
   }
   .site-navbar .site-navigation .site-menu img {
       @media (min-width: 990.px) {
@@ -742,8 +742,8 @@ h1, h2, h3, h4, h5,
           padding-left: 15px !important; }
     .sticky-wrapper{
       position: relative;
-      z-index: 100;    
-      width: 100%; 
+      z-index: 100;
+      width: 100%;
       background-color:#4B9655;
     }
   .sticky-wrapper .site-navbar {
@@ -770,7 +770,7 @@ h1, h2, h3, h4, h5,
         color: #ffffff !important; }
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
-    padding-bottom: 0px !important; 
+    padding-bottom: 0px !important;
     }
     @media (max-width: 991.98px) {
       .sticky-wrapper .shrink {
@@ -779,7 +779,7 @@ h1, h2, h3, h4, h5,
 
 /* Blocks */
 .site-section-cover {
-    
+
   position: relative; }
   .site-section-cover, .site-section-cover .container {
     position: relative;
@@ -788,7 +788,7 @@ h1, h2, h3, h4, h5,
     height: calc(100vh - 196px);
     min-height: 577px; }
     @media (max-width: 991.98px) {
-        
+
       .site-section-cover, .site-section-cover .container > .row {
         height: calc(70vh - 196px);
         min-height: 400px; } }
@@ -1296,5 +1296,3 @@ h1, h2, h3, h4, h5,
 .alinhar{
 padding-bottom: 5mm;
 }
-
-
