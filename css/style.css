@@ -1221,7 +1221,7 @@ h1, h2, h3, h4, h5,
       background: #fff; }
 
 .top-bar {
-  padding: .5rem 0; }
+  padding: .9rem 0; }
 
 .block__35630 .icon > span {
   font-size: 3rem;
@@ -1295,4 +1295,23 @@ h1, h2, h3, h4, h5,
 
 .alinhar{
 padding-bottom: 5mm;
+}
+
+.meio{
+    background-image: linear-gradient(#006400,#8FBC8F);
+    padding-top: 300px;
+    padding-bottom: 500px;
+}
+
+.meiodomeio{
+    padding-top: 100px;
+}
+
+.meiodomeio2{
+    padding-top: 20px;
+    
+}
+
+.alinhar_traço{
+    padding-right: 3em;
 }
