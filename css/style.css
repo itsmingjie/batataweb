@@ -88,7 +88,7 @@
   color: #a8a8a8; }
 
 .font-gray-7, body {
-  color: #939393; }
+  color: #white; }
 
 .font-gray-8 {
   color: #7b7b7b; }
@@ -258,6 +258,12 @@ h1, h2, h3, h4, h5,
 
 .text-black {
   color: #FFFFFF !important; }
+
+  .text-white{
+    color: ##fff !important;
+    text-align: center;
+    font-style: normal;
+  }
 
 .bg-black {
   background: #000 !important; }
@@ -1221,7 +1227,8 @@ h1, h2, h3, h4, h5,
       background: #fff; }
 
 .top-bar {
-  padding: .9rem 0; }
+
+   }
 
 .block__35630 .icon > span {
   font-size: 3rem;
@@ -1309,7 +1316,7 @@ padding-bottom: 5mm;
 
 .meiodomeio2{
     padding-top: 20px;
-    
+
 }
 
 .alinhar_traço{
